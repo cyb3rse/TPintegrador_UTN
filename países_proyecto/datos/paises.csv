@@ -1,0 +1,188 @@
+pais,poblacion,superficie,continente
+Afganistán,38928346,652230,Asia
+Albania,2877797,28748,Europa
+Alemania,83783942,357114,Europa
+Andorra,77265,468,Europa
+Angola,32866268,1246700,África
+Antigua y Barbuda,97429,442,América
+Arabia Saudita,34813867,2149690,Asia
+Argelia,43851044,2381741,África
+Argentina,45195777,2780400,América
+Armenia,2963243,29743,Asia
+Australia,25687041,7692024,Oceania
+Austria,9006398,83879,Europa
+Azerbaiyán,10139177,86600,Asia
+Bahamas,393248,13943,América
+Bangladés,164689383,147570,Asia
+Barbados,287375,430,América
+Baréin,1701575,765,Asia
+Bélgica,11589623,30528,Europa
+Belice,397628,22966,América
+Benín,12123200,112622,África
+Bielorrusia,9449323,207600,Europa
+Birmania,54409800,676578,Asia
+Bolivia,11673029,1098581,América
+Bosnia y Herzegovina,3280819,51129,Europa
+Botsuana,2351627,566730,África
+Brasil,212559409,8515767,América
+Brunéi,437479,5765,Asia
+Bulgaria,6948445,110879,Europa
+Burkina Faso,20903273,274222,África
+Burundi,11890784,27834,África
+Cabo Verde,555987,4033,África
+Camboya,16718965,181035,Asia
+Camerún,26545864,475440,África
+Canadá,37742154,9984670,América
+Catar,2881053,11586,Asia
+Chad,16425864,1284000,África
+Chile,19116201,756102,América
+China,1439323776,9596961,Asia
+Chipre,1207359,9251,Europa
+Colombia,50882884,1141748,América
+Comoras,869601,1862,África
+Congo (Brazzaville),5518087,342000,África
+Congo (Kinshasa),89561404,2344858,África
+Costa Rica,5094118,51100,América
+Costa de Marfil,26378274,322463,África
+Croacia,4105267,56594,Europa
+Cuba,11326616,109884,América
+Dinamarca,5792202,42933,Europa
+Dominica,71986,751,América
+Ecuador,17643060,283561,América
+Egipto,102334404,1002450,África
+El Salvador,6486205,21041,América
+Emiratos Árabes Unidos,9890400,83600,Asia
+Eritrea,5352001,101000,África
+Eslovaquia,5459642,49035,Europa
+Eslovenia,2078938,20273,Europa
+España,46754778,505944,Europa
+Estados Unidos,331002651,9833517,América
+Estonia,1326535,45227,Europa
+Esuatini,1160164,17364,África
+Etiopía,114963588,1104300,África
+Fiyi,896444,18274,Oceania
+Filipinas,109581085,300000,Asia
+Finlandia,5540720,338424,Europa
+Francia,65273511,551695,Europa
+Gabón,2225728,267667,África
+Gambia,2416668,11295,África
+Georgia,3989167,69700,Asia
+Ghana,31072940,238533,África
+Granada,112523,344,América
+Grecia,10423054,131957,Europa
+Guatemala,17915568,108889,América
+Guinea,13132792,245857,África
+Guinea-Bisáu,1968001,36125,África
+Guyana,786559,214969,América
+Haití,11402528,27750,América
+Honduras,9904608,112492,América
+Hungría,9660351,93028,Europa
+India,1380004385,3287590,Asia
+Indonesia,273523615,1904569,Asia
+Irán,83992949,1648195,Asia
+Iraq,40222493,438317,Asia
+Irlanda,4994724,70273,Europa
+Islandia,341243,103000,Europa
+Islas Salomón,686884,28896,Oceania
+Israel,8655535,20770,Asia
+Italia,60461826,301340,Europa
+Jamaica,2961167,10991,América
+Japón,125960000,377975,Asia
+Jordania,10203134,89342,Asia
+Kazajistán,18776707,2724900,Asia
+Kenia,53771296,580367,África
+Kirguistán,6524195,199951,Asia
+Kiribati,119446,811,Oceania
+Kuwait,4270571,17818,Asia
+Laos,7275556,236800,Asia
+Letonia,1886198,64559,Europa
+Líbano,6825445,10452,Asia
+Lesoto,2142249,30355,África
+Liberia,5057681,111369,África
+Libia,6871292,1759540,África
+Liechtenstein,38128,160,Europa
+Lituania,2722289,65300,Europa
+Luxemburgo,625978,2586,Europa
+Macedonia del Norte,2083374,25713,Europa
+Madagascar,27691019,587041,África
+Malasia,32365999,330803,Asia
+Malaui,19129952,118484,África
+Maldivas,540544,300,Asia
+Malí,20250833,1240192,África
+Malta,525285,316,Europa
+Islas Marshall,59194,181,Oceania
+Mauricio,1271768,2040,África
+Mauritania,4649658,1030700,África
+México,128932753,1964375,América
+Micronesia,548914,702,Oceania
+Moldavia,2657637,33851,Europa
+Mónaco,39242,2,Europa
+Mongolia,3278290,1564110,Asia
+Montenegro,628066,13812,Europa
+Mozambique,31255435,801590,África
+Namibia,2540905,825615,África
+Nauru,10834,21,Oceania
+Nepal,29136808,147181,Asia
+Níger,24206644,1267000,África
+Nigeria,206139589,923768,África
+Noruega,5421241,385207,Europa
+Nueva Zelanda,4822233,268838,Oceania
+Omán,5106626,309500,Asia
+Países Bajos,17134872,41543,Europa
+Pakistán,220892340,881912,Asia
+Palaos,18094,459,Oceania
+Panamá,4314767,75417,América
+Papúa Nueva Guinea,8947024,462840,Oceania
+Paraguay,7132538,406752,América
+Perú,32971846,1285216,América
+Polonia,38386000,312679,Europa
+Portugal,10196709,92391,Europa
+Reino Unido,67886011,243610,Europa
+República Centroafricana,4829767,622984,África
+República Checa,10708981,78865,Europa
+República del Congo,5518087,342000,África
+República Democrática del Congo,89561404,2344858,África
+República Dominicana,10847910,48671,América
+Ruanda,12952218,26338,África
+Rumanía,19237691,238397,Europa
+Rusia,145934462,17098242,Europa
+Samoa,198909,2842,Oceania
+San Cristóbal y Nieves,53192,261,América
+San Marino,33931,61,Europa
+San Vicente y las Granadinas,110947,389,América
+Santa Lucía,183627,616,América
+Santo Tomé y Príncipe,219159,964,África
+Senegal,16743927,196722,África
+Serbia,8737371,88361,Europa
+Seychelles,98347,455,África
+Sierra Leona,7976983,71740,África
+Singapur,5850342,719,Asia
+Siria,17500658,185180,Asia
+Somalia,15893222,637657,África
+Sri Lanka,21413249,65610,Asia
+Sudáfrica,59308690,1221037,África
+Sudán,43849260,1886068,África
+Sudán del Sur,11193725,619745,África
+Suecia,10099265,450295,Europa
+Suiza,8654622,41284,Europa
+Surinam,586632,163820,América
+Tailandia,69799978,513120,Asia
+Tanzania,59734218,945087,África
+Timor-Leste,1318445,14874,Asia
+Togo,8278724,56785,África
+Tonga,105695,747,Oceania
+Trinidad y Tobago,1399488,5130,América
+Túnez,11818619,163610,África
+Turkmenistán,6031187,488100,Asia
+Turquía,84339067,783562,Asia
+Tuvalu,11792,26,Oceania
+Ucrania,44134693,603628,Europa
+Uganda,45741007,241550,África
+Uruguay,3473727,176215,América
+Uzbekistán,33469203,447400,Asia
+Vanuatu,307145,12189,Oceania
+Venezuela,28435943,912050,América
+Vietnam,97338583,331212,Asia
+Yemen,29825964,527968,Asia
+Zambia,18383955,743398,África
+Zimbabue,14862924,390757,África
