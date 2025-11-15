@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscador de Países</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f8f8f8; padding: 30px; }
+        h1 { color: #FF9A03; }
+        form { margin-bottom: 20px; }
+        input[type="text"] {
+            padding: 8px; width: 300px; border: 1px solid #ccc; border-radius: 4px;
+        }
+        button {
+            padding: 8px 15px; background: #FF9A03; border: none; color: white;
+            border-radius: 4px; cursor: pointer;
+        }
+        button:hover { background: #e58900; }
+        table {
+            border-collapse: collapse; width: 100%; background: white;
+        }
+        th, td {
+            border: 1px solid #ddd; padding: 8px; text-align: left;
+        }
+        th { background-color: #FF9A03; color: white; }
+        button { padding: .5rem 1rem; font-size: 1rem; cursor: pointer; border-radius: 6px; border: 1px solid #666; background: #f2f2f2; }
+    /* Contenedor oculto por defecto */
+    .reveal {
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      transition: max-height .35s ease, opacity .25s ease;
+    }
+    /* Cuando esté visible */
+    .reveal.is-open {
+      max-height: 400px; /* suficiente para el contenido esperado */
+      opacity: 1;
+    }
+    /*Caja de contenido */
+    .contenido {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.08);
+      background: #fff;
+      border: 1px solid #e6e6e6;
+    }
+
+    </style>
+</head>
+<body>
+    <h1> Buscador de Países</h1>
+
+    <form method="POST">
+        <input type="text" name="busqueda" placeholder="Escribe el nombre del país...">
+        <button type="submit">Buscar</button>
+    </form>
+
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Población</th>
+            <th>Superficie (km²)</th>
+            <th>Continente</th>
+        </tr>
+        {% for pais in paises %}
+        <tr>
+            <td>{{ pais.pais }}</td>
+            <td>{{ pais.poblacion }}</td>
+            <td>{{ pais.superficie }}</td>
+            <td>{{ pais.continente }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+ <button id="toggleBtn" aria-expanded="false" aria-controls="miContenido">
+    Mostrar contenido
+  </button>
+
+  <!-- Contenido ocultable -->
+  <div id="miContenido" class="reveal" aria-hidden="true">
+    <div class="contenido" >
+      <h2>los 3 paises con mayor poblacion</h2>
+     <ul>
+        <li>
+
+           1:China: 1439323776
+           2:India: 1380004385
+           3:Estados Unidos: 331002651
+
+        </li>
+     </ul>
+      <h2> los 3 paises con menor poblacion </h2>
+      <ul>
+         <li> 
+            1:Nauru: 10834
+            2:Tuvalu: 11792
+            3:Palaos: 18094
+         </li>
+        
+      </ul>
+      <h2>los 3 paises con mayor superficie(km2)</h2>
+     <ul>
+        <li>
+
+           1:Rusia: 17098242
+           2:Canada: 9984670
+           3:Estados Unidos: 9833517
+
+        </li>
+     </ul>
+      <h2> los 3 paises con menor superficie(km2) </h2>
+      <ul>
+         <li> 
+            1:Mónaco: 2
+            2:Nauru: 21
+            3:Tuvalu: 26
+         </li>
+        
+    </div>
+  </div>
+
+  <script>
+    // Toggle simple y accesible
+    const btn = document.getElementById('toggleBtn');
+    const contenido = document.getElementById('miContenido');
+
+    btn.addEventListener('click', () => {
+      const isOpen = contenido.classList.toggle('is-open');
+
+      // Actualizamos atributos ARIA
+      btn.setAttribute('aria-expanded', String(isOpen));
+      contenido.setAttribute('aria-hidden', String(!isOpen));
+
+      // cambiar el texto del botón
+      btn.textContent = isOpen ? 'Ocultar datos' : 'Mostrar estadisticas';
+    });
+  </script>
+
+</body>
+</html>
