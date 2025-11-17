@@ -37,7 +37,7 @@
         }
         /* Cuando esté visible */
         .reveal.is-open {
-          max-height: 400px; /* suficiente para el contenido esperado */
+          max-height: 400px; 
           opacity: 1;
         }
         /*Caja de contenido */
@@ -103,7 +103,6 @@
         </div>
     </form>
 
-    <!-- TABLA (preserva tu estructura y estilos originales) -->
     <table>
         <tr>
             <th>País</th>
@@ -121,7 +120,6 @@
         {% endfor %}
     </table>
 
-    <!-- Tu botón Reveal y contenido (sin cambios visuales) -->
     <button id="toggleBtn" aria-expanded="false" aria-controls="miContenido" class="secondary" style="margin-top:14px;">
         Mostrar contenido
     </button>
@@ -165,18 +163,16 @@
     </div>
 
     <script>
-      // Toggle simple y accesible (tu script original)
       const btn = document.getElementById('toggleBtn');
       const contenido = document.getElementById('miContenido');
 
       btn.addEventListener('click', () => {
         const isOpen = contenido.classList.toggle('is-open');
 
-        // Actualizamos atributos ARIA
         btn.setAttribute('aria-expanded', String(isOpen));
         contenido.setAttribute('aria-hidden', String(!isOpen));
 
-        // cambiar el texto del botón
+        
         btn.textContent = isOpen ? 'Ocultar datos' : 'Mostrar estadisticas';
       });
     </script>
